@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
 }
@@ -54,6 +53,10 @@ ul{
     text-align: center;
 }
 
+.principal p{
+    font-size: 20px;
+}
+
 .principal-button{
     width: 250px;
     height: 40px;
@@ -97,6 +100,10 @@ h1{
     height: 85%;
 }
 
+.second-text p{
+    font-size: 20px;
+}
+
 .third{
     background-color: gold;
     text-align: center;
@@ -114,6 +121,7 @@ h1{
 .third p{
     color: green;
     text-align: center;
+    font-size: 20px;
 }
 
 .home-depot{
@@ -131,10 +139,32 @@ h1{
     padding: 50px 75px 0px 0px;
 }
 
-
-
 footer{
     color: black;
-    background-color: blanchedalmond;
+    background-color: green;
     text-align: center;
+    display: flex;
+}
+
+.container1{
+    display: flex;
+    background-color: #99cc00;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.col1-container1{
+    width: 500px;
+}
+.col2-container1{
+    width: 400px;
+}
+.col3-container1{
+    width: 450px;
+}
+
+.tryhard{
+    color: beige;
 }
